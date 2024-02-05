@@ -1,0 +1,23 @@
+.custom-card {
+  background-color: #dddddd; /* Gray background color */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.custom-card:hover {
+  background-color: #87ceeb; /* Sky blue color on hover */
+}
+
+.delete-icon,
+.edit-icon {
+  cursor: pointer;
+  color: #555555; /* Default icon color */
+  transition: color 0.3s; /* Smooth transition for icon color on hover */
+
+}
+
+.delete-icon:hover,
+.edit-icon:hover {
+  color: #ff0000; /* Red color for delete icon, adjust as needed */
+}
+
+
